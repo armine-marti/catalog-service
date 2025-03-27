@@ -26,7 +26,8 @@ jobs:
       - name: Grant gradlew permission  
         run: chmod +x gradlew
 
-      - name: Build with Gradle Wrapper
 
+      - name: Build with Gradle Wrapper
+        run: ./gradlew build fix this
 
     
